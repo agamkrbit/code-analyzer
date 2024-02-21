@@ -4,7 +4,7 @@ import { File } from "../file-helper";
 import { BaseFileParser } from "./base-file-parser";
 
 /**
- * this is factory class to create file parser base on the file
+ * this is factory class to create file parser based on the file
  */
 export class FileParserFactory {
     static create(file: File): BaseFileParser {
