@@ -1,4 +1,4 @@
-import { File } from "../file-helper";
+import { File } from "../files/file";
 import { IParser } from "./parser";
 
 /**

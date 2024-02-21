@@ -1,4 +1,4 @@
-import { File } from "../file-helper";
+import { File } from "../files/file";
 import { BaseFileParser } from "../parsers/base-file-parser";
 import { IParser } from "../parsers/parser";
 import { ITemplate } from "./template";

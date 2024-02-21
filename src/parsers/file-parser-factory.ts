@@ -1,7 +1,7 @@
 import { ExtensionEnum } from "../extension.enum";
 import { JSParser } from "./js-parser";
-import { File } from "../file-helper";
 import { BaseFileParser } from "./base-file-parser";
+import { File } from "../files/file";
 
 /**
  * this is factory class to create file parser based on the file

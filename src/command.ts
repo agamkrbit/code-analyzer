@@ -1,11 +1,11 @@
 import { Command } from "commander";
 import { FileTemplateFactory } from "./reports/file-template-factory";
-import { isFileExists, isPathExists } from "./file-helper";
 import { RED } from "./reports/constants";
 import { FolderParser } from "./parsers/folder-parser";
 import { BaseFileParser } from "./parsers/base-file-parser";
 import { FolderTemplate } from "./reports/folder-template";
 import { parseFile, parseFolder } from "./parsers/helper";
+import { isFileExists, isPathExists } from "./files/helper";
 
 function printAllFileReport(folderParser: FolderParser) {
 	for (const child of folderParser.children) {

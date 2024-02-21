@@ -1,7 +1,7 @@
-import { File } from '../file-helper'
 import { BaseFileParser } from './base-file-parser';
 import { FileParserFactory } from './file-parser-factory';
 import { JS_TEST_FILE_PATH } from '../test-helper';
+import { File } from '../files/file';
 
 describe('FileParserFactory', () => {
     describe('test for JS', () => {

@@ -1,10 +1,10 @@
-import { File } from '../file-helper';
 import { BaseFileTemplate } from './base-file-template';
 import { JS_TEST_FILE_PATH } from '../test-helper';
 import { FileParserFactory } from '../parsers/file-parser-factory';
 import { FileTemplateFactory } from './file-template-factory';
 import { toEqualIgnoringWhitespace } from 'jest-extended';
 import { BLUE, GREEN, WHITE } from './constants';
+import { File } from '../files/file';
 
 expect.extend({toEqualIgnoringWhitespace})
 

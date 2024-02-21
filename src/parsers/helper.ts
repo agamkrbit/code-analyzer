@@ -1,10 +1,10 @@
 import { readdirSync, statSync } from "fs";
-import { parseFilePath } from "../file-helper";
 import { BaseFileParser } from "./base-file-parser";
 import { FileParserFactory } from "./file-parser-factory";
 import { FolderParser } from "./folder-parser";
 import path from "path";
 import { RED } from "../reports/constants";
+import { parseFilePath } from "../files/helper";
 
 /**
  * this function return the file parser as per the file extension
