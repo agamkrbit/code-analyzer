@@ -25,14 +25,14 @@ it show the result like below
 ```
 Currently extension map is not supported!
 file: /Users/agamkumar/practice/code-parser/dist/command.js (command.js)
-- no of lines: 100
 - no of code lines: 97
 - no of commented lines: 2
 - no of empty lines: 1
+- total no of lines: 100
 
 folder: /Users/agamkumar/practice/code-parser/dist/
-- no of lines: 100
 - no of code lines: 97
 - no of commented lines: 2
 - no of empty lines: 1
+- total no of lines: 100
 ```

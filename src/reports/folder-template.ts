@@ -15,10 +15,10 @@ export class FolderTemplate implements ITemplate {
     build(): string {
         return (
 `${GREEN}folder: ${this._parser.path}
-${BLUE}- no of lines: ${WHITE}${this._parser.noOfLines} 
 ${BLUE}- no of code lines: ${WHITE}${this._parser.noOfCodeLines} 
 ${BLUE}- no of commented lines: ${WHITE}${this._parser.noOfCommentedLines} 
 ${BLUE}- no of empty lines: ${WHITE}${this._parser.noOfEmptyLines}
+${BLUE}- total no of lines: ${WHITE}${this._parser.noOfLines} 
 `
         );
     }

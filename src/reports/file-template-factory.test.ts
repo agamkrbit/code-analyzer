@@ -21,10 +21,10 @@ describe('FileTemplateFactory', () => {
         it('should return template', async () => {
             expect(await template.build()).toEqualIgnoringWhitespace(
 `${GREEN}file: /Users/agamkumar/practice/code-parser/test/test-js.js (test-js.js)
-${BLUE}- no of lines: ${WHITE}9
 ${BLUE}- no of code lines: ${WHITE}4
 ${BLUE}- no of commented lines: ${WHITE}1
 ${BLUE}- no of empty lines: ${WHITE}4
+${BLUE}- total no of lines: ${WHITE}9
                 `
             )
         })
