@@ -8,4 +8,8 @@ export class JSParser extends BaseFileParser {
         return ['//']
     }
 
+    getMultiLineCommentIdentifiers(): string[][] {
+        return [['/*' , '*/']]
+    }
+
 }

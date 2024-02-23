@@ -39,4 +39,8 @@ export class FolderParser implements IParser {
         return this._childParsers.reduce((acc, parser) => acc + parser.noOfCodeLines, 0);
     }
 
+    get noOfMultiLineComment(): number {
+        return this._childParsers.reduce((acc, parser) => acc + parser.noOfMultiLineComment, 0);
+    }
+
 }

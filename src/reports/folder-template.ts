@@ -16,7 +16,8 @@ export class FolderTemplate implements ITemplate {
         return (
 `${GREEN}folder: ${this._parser.path}
 ${BLUE}- no of code lines: ${WHITE}${this._parser.noOfCodeLines} 
-${BLUE}- no of commented lines: ${WHITE}${this._parser.noOfCommentedLines} 
+${BLUE}- no of commented lines: ${WHITE}${this._parser.noOfCommentedLines}
+${BLUE}- no of multi line comment: ${WHITE}${this._parser.noOfMultiLineComment}
 ${BLUE}- no of empty lines: ${WHITE}${this._parser.noOfEmptyLines}
 ${BLUE}- total no of lines: ${WHITE}${this._parser.noOfLines} 
 `

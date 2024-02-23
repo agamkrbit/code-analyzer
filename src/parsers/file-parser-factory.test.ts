@@ -22,8 +22,9 @@ describe('FileParserFactory', () => {
 
         it('should return correct value', () => {
             expect(parser.noOfCommentedLines).toEqual(1);
-            expect(parser.noOfEmptyLines).toEqual(4);
-            expect(parser.noOfLines).toEqual(9);
+            expect(parser.noOfEmptyLines).toEqual(5);
+            expect(parser.noOfMultiLineComment).toEqual(2);
+            expect(parser.noOfLines).toEqual(14);
             expect(parser.noOfCodeLines).toEqual(4);
         })
     })

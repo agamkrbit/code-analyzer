@@ -19,8 +19,9 @@ describe('FolderTemplate', () => {
 `${GREEN}folder: /Users/agamkumar/practice/code-parser/test
 ${BLUE}- no of code lines: ${WHITE}4
 ${BLUE}- no of commented lines: ${WHITE}1
-${BLUE}- no of empty lines: ${WHITE}4
-${BLUE}- total no of lines: ${WHITE}9
+${BLUE}- no of multi line comment: ${WHITE}2
+${BLUE}- no of empty lines: ${WHITE}5
+${BLUE}- total no of lines: ${WHITE}14
             `
         )
     })

@@ -4,6 +4,7 @@
 export interface  IParser  {
     get noOfEmptyLines(): number;
     get noOfCommentedLines(): number;
+    get noOfMultiLineComment(): number;
     get noOfLines(): number;
     get noOfCodeLines(): number;
 }
