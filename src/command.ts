@@ -28,10 +28,9 @@ program
 program.command('analyze')
 	.description('analyze the code in the provided path')
 	.argument('<string>', 'path of the file or folder')
-	.option('-s, --separator <char>', 'separator character', ' ')
-	.action(async (str: string, options: { separator: string }) => {
+	.action(async (str: string) => {
 		const trimmedStr = str.trim();
-		const path = trimmedStr.split(options.separator)[0] || '';
+		const path = trimmedStr.split(' ')[0] || '';
 
 		if (isFileExists(path)) {
 			// in case of single file
